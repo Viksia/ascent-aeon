@@ -1,0 +1,109 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    /* background-color:  #3C194F; */
+    background-color: #250F30;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 10px 0px 35px 0px ;
+    color: #FFFFFF;
+    font-weight: normal;
+    text-transform:uppercase;
+    font-size: 18px;
+}
+
+.header {
+    /* background-image: url("https://i.ibb.co/51171Lt/slader4.png"); */
+    background-size:  cover;
+    background-repeat: no-repeat;
+    /* margin-bottom: 40px; */
+    /* height: 300px; */
+    padding: 40px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.5)), to(rgba(47, 48, 58, 0.5))), url("https://i.ibb.co/ZKT7Nz0/slider2.png");
+}
+
+.levels {
+    padding: 40px;
+}
+
+.iconl {
+    width: 100px;
+    border-radius: 50%; 
+    background-color: #250F30;
+}
+
+.iconl:hover {
+    background-color: white;
+}
+
+.icon {
+    width: 100px;
+    border-radius: 50%; 
+    background-color: #250F30;
+}
+
+.icon:hover {
+    background-color: #BF6DD5;
+}
+
+.acsent {
+    color: #f5bd1f;
+}
+
+.doptools {
+    padding: 40px;
+     background-color: #3C194F;  
+     
+}
+
+.doplinks {
+    display: flex;
+     align-items: center;
+     justify-content: space-around;
+      color: white;    
+    margin-bottom: 30px;
+    
+    
+}
+
+p {
+    color: #BF6DD5;
+    font-size: 12px;
+}
+
+
+.dop {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* justify-content: center;    */
+    
+}
+
+.icon {
+    margin: 8px;
+}
+
+a {
+    color: white;    
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f5bd1f;
+}
+
+.lev {
+    color: #BF6DD5;
+}
